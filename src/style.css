@@ -1,0 +1,193 @@
+body{
+padding: 20px;
+background-color: #9d2525;
+}
+
+.navbar {
+    font-size: 30px;
+    color:#f7e6e6;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+   
+}
+.navbar__link {
+    
+    margin: 45px;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #6d0d0d;
+}
+
+.navbar__links-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    background-color: #ffffff;
+    border-radius: 50px;
+    padding: 20px;
+    box-shadow: 0 5px 16px #6f0e0e;
+    margin: 20px;
+    max-width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Her starts the main page */
+ul{
+    border: #6d0d0d 2px solid;
+    border-radius: 10%;
+    margin: 5px;
+}
+.grid__container{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    background-color: #fefefe;
+    border-radius: 5%;
+    padding-bottom: 30px;
+}
+
+.select__color {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    size-adjust: 20px;
+}
+.button {
+    border: 3px solid rgb(8, 78, 38);
+    align-content: center;
+    justify-content: space-between;
+}
+
+.color__button {
+    background-color: rgb(148, 31, 31);
+    color: white;
+    border-radius: 100%;
+    padding: 3%; 
+    margin: 5px;
+}
+
+.color__button:hover {
+    background-color: rgb(148, 31, 31);
+    color: white;
+    border-radius: 100%;
+    padding: 3%; 
+    margin: 5px;
+    transition: 1s;
+}
+.color__button1:hover{
+ background-color: rgb(172, 164, 155);
+}
+
+.color__button2:hover{
+ background-color: rgb(240, 225, 185);
+}
+
+.color__button3:hover{
+ background-color: rgb(77, 78, 95);
+}
+
+.color__button4:hover{
+ background-color: rgb(98, 96, 95);
+}
+
+/* Phone Memory selector */
+.memory__button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+    align-content: center;
+}
+
+.memory__button-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-family:'Times New Roman', Times, serif;
+}
+.memory__button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#memory__button{
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(9, 107, 25);
+    border-radius: 10%;
+    padding: 3%;
+    background-color: transparent;
+    transition: background-color 5s ease;
+    box-shadow: 1px 3px 1px #3e4e3e;
+    
+}
+#memory__button:hover{
+    background-color: rgb(170, 17, 38);
+    color: white;
+   }
+
+/* grid item 3 starts here */
+
+.flex__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10%;
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    padding-right:5%;
+    margin-top: 1%;
+    border-radius: 5%;
+}
+    
+
+.b__action{
+    background-color: transparent;
+    border-radius: 10px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 3%;
+    padding-left: 3%;
+    box-shadow: 1px 3px 1px #4e3e3e;
+}
+
+.b__action:hover{
+    background-color: rgb(170, 17, 38);
+    color: white;
+   }
+
+ @media (min-width: 460px) and (max-width:670px){
+
+    .grid__container{
+        grid-template-columns: 1fr;
+        gap:10px;
+    }
+
+    .grid__item{
+        width: 100%;
+    }
+
+    .flex__container{
+        padding: 10px;
+    }
+
+    .item1{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5%;
+    }
+ }
+
+
+ 
+   
+

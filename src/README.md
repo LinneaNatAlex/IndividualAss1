@@ -5,7 +5,7 @@ This is a product page app, where you can buy phones. There is two pages
 
 ## Getting started
 To download this project localy.
-1. clonde the project by running the link: git clone [git@github.com:LinneaNatAlex/Final2024.git] 
+1. clonde the project by running the link: git clone [git@github.com:LinneaNatAlex/IndividualAss1.git] 
 2. go to `index.html`
 3. open the html in you'r browser
 

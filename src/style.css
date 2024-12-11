@@ -2,7 +2,7 @@ body{
 padding: 20px;
 background-color: #9d2525;
 }
-
+/* Navigation bar */
 .navbar {
     font-size: 30px;
     color:#f7e6e6;
@@ -35,22 +35,24 @@ background-color: #9d2525;
     overflow: hidden;
 }
 
-/* Her starts the main page */
-ul{
+/* main page */
+/*this is the Ul syles*/
+ul{  
     border: #6d0d0d 2px solid;
     border-radius: 10%;
     margin: 5px;
 }
+
 .grid__container{
-    display: grid;
-    align-items: center;
-    justify-items: center;
-    grid-template-columns: 1fr 1fr;
+    display: grid; /*Gid containers to make it more felxible*/
+    align-items: center;/*to center items*/
+    justify-items: center;/*placing it correctley*/
+    grid-template-columns: 1fr 1fr; /*making a 2 grid*/
     background-color: #fefefe;
     border-radius: 5%;
     padding-bottom: 30px;
 }
-
+/* The color selector part */
 .select__color {
     display: flex;
     align-items: center;
@@ -70,7 +72,7 @@ ul{
     padding: 3%; 
     margin: 5px;
 }
-
+/* :hover makes the button change color when hovering the pointer over */
 .color__button:hover {
     background-color: rgb(148, 31, 31);
     color: white;
@@ -132,8 +134,7 @@ ul{
     background-color: rgb(170, 17, 38);
     color: white;
    }
-
-/* grid item 3 starts here */
+/* Flexcontainer */
 
 .flex__container{
     display: flex;
@@ -164,6 +165,7 @@ ul{
     color: white;
    }
 
+   /* responsive layout starts here */
  @media (min-width: 460px) and (max-width:670px){
 
     .grid__container{
